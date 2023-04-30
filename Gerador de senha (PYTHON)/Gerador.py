@@ -7,8 +7,6 @@ def gerador():
             ':;.>,<-_=+§[{ªº}]!@#$%¨&*()¹²³£¢¬/?°|'
     senha = []
 
-    #Caso queira continuar
-    #while True:
     for c in range(8):
         senha.append(choice(dados))
     return senha
