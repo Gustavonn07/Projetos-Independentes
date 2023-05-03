@@ -1,0 +1,35 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    align-items: center;
+}
+
+input{
+    height: 20px;
+    width: 270px;
+    position: relative;
+    padding-right: 30px;
+    background-color: #ececec;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px 10px 10px;
+    color: #ababab;
+    transition-duration: 50ms;
+}
+
+input:focus{
+    outline: 2px solid #464646;
+    transition-duration: 50ms;
+}
+
+i{
+    position: absolute;
+    left: 285px;
+    color: #ababab;
+    cursor: pointer;
+}
