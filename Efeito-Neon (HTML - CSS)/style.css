@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(3, auto-fill);
+    grid-template-rows: repeat(3, auto-fill);
+    height: 100vh;
+    background-color: black;
+}
+
+button{
+    align-self: center;
+    justify-self: center;
+    width: 20vw;
+    height: 15vh;
+    font-size: 6vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 4px solid cyan;
+    color: cyan;
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+
+button:hover{
+    box-shadow: 0 0 15px cyan, inset 0 0 15px cyan;
+    text-shadow: 0 0 15px cyan;
+    transition-duration: 250ms;
+}
