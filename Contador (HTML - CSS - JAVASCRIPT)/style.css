@@ -83,3 +83,7 @@ input:not(#reset):hover{
     text-shadow: none;
     box-shadow: none
 }
+
+#valor{
+    font-size: 40px;
+}

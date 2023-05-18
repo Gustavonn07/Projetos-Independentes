@@ -1,14 +1,43 @@
-// const num = 0;
-// let plus =+1; 
-// let minus =-1; 
+let valor = 0
+let local = document.getElementById('valor')
 
-// document.querySelector()
 
-// function calc() {
-//     if (+1) {
-//     num =+ 1;
-//     }
-//     else {
-//     num =-1;
-//     }
-// }
+function aumentar(){
+    let incremento = 1
+    valor += incremento
+    if(valor > 0){
+        local.style.color = 'green'
+        local.innerText = `${valor}`
+    }
+    else if(valor < 0){
+        local.style.color = 'red'
+        local.innerText = `${valor}`
+    }
+    else{
+        local.style.color = 'white'
+        local.innerText = `${valor}`
+    }
+}
+
+function diminuir(){
+    let incremento = -1
+    valor += incremento
+    if(valor > 0){
+        local.style.color = 'green'
+        local.innerText = `${valor}`
+    }
+    else if(valor < 0){
+        local.style.color = 'red'
+        local.innerText = `${valor}`
+    }
+    else{
+        local.style.color = 'white'
+        local.innerText = `${valor}`
+    }
+}
+
+function reset(){
+    valor = 0
+    local.style.color = 'white'
+    local.innerText = `${valor}`
+}
