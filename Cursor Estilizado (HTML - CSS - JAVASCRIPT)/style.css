@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: none;
+    background-color: black;
+}
+
+.cursor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    pointer-events: none; /* Permite que outros elementos sejam clicáveis */
+    animation: animacao 1s alternate infinite ease-in-out;
+  }
+
+@keyframes animacao {
+    from {
+        background-image: radial-gradient(circle, red 100%, transparent);
+        box-shadow: 0 0 18px red, inset 0 0 18px red;
+    }
+
+    to {
+        background-image: radial-gradient(circle, blue, transparent);
+        box-shadow: 0 0 18px blue, inset 0 0 18px blue;
+    }
+}
