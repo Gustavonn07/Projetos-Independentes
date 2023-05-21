@@ -45,3 +45,8 @@ body{
     transition-duration: 250ms;
     cursor: pointer;
 }
+
+#piada{
+    font-size: 18pt;
+    color: white;
+}
