@@ -4,5 +4,6 @@ Tecnologias usadas:
 
     - Python                           - HTML
     - Javascript                       - CSS
+    - Bootstrap
     
   
