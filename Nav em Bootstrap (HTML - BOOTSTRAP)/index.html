@@ -8,21 +8,23 @@
     <title>NavBar</title>
 </head>
 <body>
-    <ul class="container nav nav-pills nav-justified align-items-center h4">
-        <li class="m-3">LOGO</li>
-        <li class="nav-item"><a href="#1" data-bs-toggle="tab" class="nav-link">link</a></li>
-        <li class="nav-item"><a href="#2" data-bs-toggle="tab" class="nav-link">link</a></li>
-        <li class="nav-item"><a href="#3" data-bs-toggle="tab" class="nav-link">link</a></li>
-        <li class="nav-item"><a href="#4" data-bs-toggle="tab" class="nav-link">link</a></li>
-        <li class="nav-item dropdown-center">
-            <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
-            <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">Item</a></li>
-                <li><a href="#" class="dropdown-item">Item</a></li>
-                <li><a href="#" class="dropdown-item">Item</a></li>
-            </ul>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand bg-dark nav nav-pills justify-content-between align-items-center h4 container-fluid">
+        <span class="navbar-brand text-info m-3">LOGO</span>
+        <ul class="d-flex nav gap-4 m-3">
+            <li class="nav-item"><a href="#1" data-bs-toggle="tab" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#2" data-bs-toggle="tab" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#3" data-bs-toggle="tab" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#4" data-bs-toggle="tab" class="nav-link">link</a></li>
+            <li class="nav-item dropdown-center">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Item</a></li>
+                    <li><a href="#" class="dropdown-item">Item</a></li>
+                    <li><a href="#" class="dropdown-item">Item</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
     <div class="tab-content">
         <div id="1" class="container tab-pane bg-info p-3">Link1</div>
