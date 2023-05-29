@@ -1,4 +1,4 @@
-# Mini-Projetos
+# Projetos individuais
 
 ## Funcionalidade
 Alguns mini-projetos que uso para treinar meus conhecimentos com algumas tecnologias
