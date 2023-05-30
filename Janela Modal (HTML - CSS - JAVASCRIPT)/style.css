@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.9vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px black;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.abrir{
+    background-color: lightgreen;
+    border: 1px solid green;
+    color: green;
+    position: absolute;
+    z-index: 1;
+}
+
+.abrir:hover{
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    color: white;
+    transition-duration: 200ms;
+}
+
+.fechar{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+
+.fechar:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#janela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px black;
+}
+
+#janela-display{
+    display: none;
+}
+
+header{
+    font-size: 4vh;
+}
+
+main{
+    text-indent: 18px;
+}
