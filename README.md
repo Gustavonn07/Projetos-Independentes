@@ -1,9 +1,9 @@
-# Projetos independentes
+<h1 align='center'> Projetos independentes </h1>
 
-## Funcionalidade
+### Funcionalidade:
 Alguns mini-projetos que uso para treinar meus conhecimentos com algumas tecnologias e salvar alguns códigos que podem ser úteis a longo prazo.
 
-## Tecnologias usadas:
+### Tecnologias usadas:
 <div style="display: inline_block">
     <img alt="Gustavo-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img alt="Gustavo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -12,5 +12,7 @@ Alguns mini-projetos que uso para treinar meus conhecimentos com algumas tecnolo
     <img alt="Gustavo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 </div>
     
-## Referências
+<hr>
+
+## Referências:
 https://www.instagram.com/developer_pani/
